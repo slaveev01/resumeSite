@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+@media (max-width: 650px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px){
+    .form-row{
+        display: block;
+    }
+    .form-row .form-group{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+a {
+    /* color: #333; */
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:active{
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+    /* font-size: 4rem; */
+}
+
+/* a:visited {
+    color: black;
+} */
+
+body{
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+ .info {
+    margin-bottom: 20px;
+    display: flex;
+} 
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 10px;
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.card {
+    border: 4px solid black;
+    border-radius: 8px;
+    background: darkgoldenrod;
+    text-indent: 15px;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.list {
+    padding: 0 20px;
+    margin-left: 10px;
+}
+
+.list li{
+    margin-bottom: 10px;
+    
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: red;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group{
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+} 
+
+.table td {
+    padding-bottom: 10px;
+}
+ .table td:nth-child(2), .table td:nth-child(3) {
+    color: red;
+}
+
+
+.card-message {
+    border: 4px solid black;
+    border-radius: 6px;
+    background-color: lightslategray;
+    padding: 15px 20px;
+    margin: 10px;
+}
+
+.card-message textarea{
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.card-2 {
+    border: 5px solid #000;
+}
+
+.card-hobby{
+    border: 4px solid black;
+    border-radius: 6px;
+    background-color: lightcoral;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.card-hobby h2{
+    text-align: center;
+}
+
+.card-past-jobs {
+    border: 4px solid black;
+    border-radius: 6px;
+    background-color: lightblue;
+}
